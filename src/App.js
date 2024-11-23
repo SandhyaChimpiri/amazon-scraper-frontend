@@ -7,7 +7,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get("https://amazon-scraper-backend.onrender.com/api/products")
+    axios.get("https://amazon-scraper-backend.onrender.com/api.products")
       .then(response => {
         setProducts(response.data);
         setLoading(false);
