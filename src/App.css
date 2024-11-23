@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+thead {
+  font-size: 3vh;
+  color: yellow;
+}
+
+h1 {
+  text-shadow: 2px 2px rgba(249, 241, 10, 0.892)
+}
